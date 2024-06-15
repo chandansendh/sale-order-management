@@ -2,7 +2,7 @@ import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { Box, Table, Thead, Tbody, Tr, Th, Td, IconButton } from "@chakra-ui/react";
 import { ViewIcon } from '@chakra-ui/icons';
-import { fetchCompletedOrders } from '../api';  // Create mock API function
+import { fetchCompletedOrders } from '../api/index';
 import OrderModal from '../components/OrderModal';
 import { useDisclosure } from "@chakra-ui/react";
 

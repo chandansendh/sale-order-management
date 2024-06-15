@@ -111,7 +111,6 @@ const OrderModal = ({ isOpen, onClose, order, onSave, readOnly }) => {
                   )}
                 />
               </FormControl>
-              {/* Additional fields for items and other details */}
             </VStack>
             {!readOnly && (
               <ModalFooter>
